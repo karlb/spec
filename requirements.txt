@@ -1,3 +1,4 @@
 sphinx
 sphinx_rtd_theme
 sphinxcontrib-soliditydomain
+git+git://github.com/raiden-network/raiden-contracts.git@9ad20750a89298abf2bfdcc52a1e21d8ddf347f7#egg=raiden-contracts

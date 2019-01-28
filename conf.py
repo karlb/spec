@@ -70,7 +70,9 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 pygments_style = 'sphinx'
 
 # where does autodoc look for source code
-autodoc_lookup_path = 'contracts'
+import os
+import raiden_contracts
+autodoc_lookup_path = os.path.join(os.path.dirname(raiden_contracts.__file__), 'contracts')
 
 # -- Options for HTML output -------------------------------------------------
 
